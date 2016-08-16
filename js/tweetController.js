@@ -12,7 +12,7 @@ console.log($routeParams);
 		var searchTerm  = $routeParams.searchTerm;
 	}
 	else { 
-	var searchTerm = 'trump';
+	var searchTerm = 'puppylove';
 	}
 
 
@@ -27,16 +27,16 @@ $http({
 	  	console.log(tweetData);
 	  });    
 
-$http({
-	      method: 'GET',
-	      url: 'http://digitalcrafts.com/students/twitter/hashtag.php?user=true&hash=;hate'
-	  }).then(function success(tweetData){
-	      $scope.tweets = tweetData.data.statuses;
-	      console.log(tweetData.data.statuses);
+// $http({
+// 	      method: 'GET',
+// 	      url: 'http://digitalcrafts.com/students/twitter/hashtag.php?user=true&hash=;hate'
+// 	  }).then(function success(tweetData){
+// 	      $scope.tweets = tweetData.data.statuses;
+// 	      console.log(tweetData.data.statuses);
 
-	  }, function failedFunction(tweetData){
-	  	console.log(tweetData);
-	  });    
+// 	  }, function failedFunction(tweetData){
+// 	  	console.log(tweetData);
+// 	  });    
 
 });
 

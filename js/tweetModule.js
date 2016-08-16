@@ -2,12 +2,12 @@
 var tweetApp = angular.module("tweetApp", ['ngRoute']);
 
 
-// tweetApp.directive('customMenu', function(){
-// 	return {
-// 		restrict: 'E', //E = element, A = attribute, C =  class, M = Comment (dont use comment)
-// 		templateUrl: "views/menu.html"
-// 	}
-// });
+tweetApp.directive('customMenu', function(){
+	return {
+		restrict: 'E', //E = element, A = attribute, C =  class, M = Comment (dont use comment)
+		templateUrl: "views/menu.html"
+	}
+});
 
 
 tweetApp.config(function($routeProvider){
