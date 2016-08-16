@@ -1,3 +1,4 @@
+// https://coolors.co/331e36-41337a-6ea4bf-c2efeb-ecfee8
 
 @import 'configs/variables';
 @import 'components/misc';
@@ -6,45 +7,52 @@
 
 body{
 	width: 100%;
-	margin: 0px;
+	margin: auto;
 	background-color: $mainBgColor;
+	display: inline-block;
+	font-family: 'Denk One', sans-serif;
 }
 
+		div {
+			text-align: -webkit-center;
 
-#body{
-	.container{
-		width: $width;
-		overflow: hidden;
-		margin: auto;
-		&.after-header{
-			padding-top: 40px;
+			width: 45%;
+
+			img {
+			width: 100%;
+			}
+
+			h2 { 
+			color: #ecfee8;
+			}
+
+			h3, p{
+			color: #6ea4bf;
+			}	
 		}
 
-		.col{
-			width: getColumnWidth($width, $numColumns, $margin);
-			margin: auto $margin;
+		.love {
+			float: right;
+			margin: 10px;
+		}
+
+		.hate {
 			float: left;
-			@extend .base-font;
-			// color: #000;
+			margin: 10px;
 		}
-	}
-}
 
-.click-event{
-	text-align: center;
-	padding-top: 20px;
-	input{
-		font-size: 20px;
-	}
-}
 
-.movie-types{
-	text-align: center;
-	padding: 10px;
-}
 
-.buttons{
-		background-color: #EB4B98;
-		font-size: 15px;
-		color: #fff;
-	}
+		h1 {
+		color: #41337a;
+		text-align: center;
+		font-size: 200px;
+		margin: 10px;
+		}
+
+		
+
+		
+
+
+

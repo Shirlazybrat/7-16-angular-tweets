@@ -8,11 +8,11 @@
  * https://drupal.org/node/1707736
  */
 /* line 39, ../compass/sass/components/_misc.scss */
-.base-font, #body .container .col {
+.base-font {
   font-family: "source-serif-pro",Georgia,"Times New Roman",Times,serif;
   font-size: 14px;
   line-height: 16px;
-  color: #F26DF9;
+  color: #E3B505;
 }
 
 /* line 6, ../compass/sass/layout/_header.scss */
@@ -28,7 +28,7 @@
 /* line 12, ../compass/sass/layout/_header.scss */
 #header .circle {
   border-radius: 20px;
-  background-color: #02394A;
+  background-color: #331e36;
   border: 3px solid #0000ff;
   height: 30px;
   width: 30px;
@@ -47,49 +47,49 @@
   border-radius: 10px;
 }
 
-/* line 7, ../compass/sass/styles.scss */
+/* line 8, ../compass/sass/styles.scss */
 body {
   width: 100%;
-  margin: 0px;
-  background-color: #02394A;
-}
-
-/* line 15, ../compass/sass/styles.scss */
-#body .container {
-  width: 1200px;
-  overflow: hidden;
   margin: auto;
+  background-color: #331e36;
+  display: inline-block;
+  font-family: 'Denk One', sans-serif;
 }
-/* line 19, ../compass/sass/styles.scss */
-#body .container.after-header {
-  padding-top: 40px;
+
+/* line 16, ../compass/sass/styles.scss */
+div {
+  text-align: -webkit-center;
+  width: 45%;
 }
-/* line 23, ../compass/sass/styles.scss */
-#body .container .col {
-  width: 280px;
-  margin: auto 10px;
+/* line 21, ../compass/sass/styles.scss */
+div img {
+  width: 100%;
+}
+/* line 25, ../compass/sass/styles.scss */
+div h2 {
+  color: #ecfee8;
+}
+/* line 29, ../compass/sass/styles.scss */
+div h3, div p {
+  color: #6ea4bf;
+}
+
+/* line 34, ../compass/sass/styles.scss */
+.love {
+  float: right;
+  margin: 10px;
+}
+
+/* line 39, ../compass/sass/styles.scss */
+.hate {
   float: left;
-}
-
-/* line 33, ../compass/sass/styles.scss */
-.click-event {
-  text-align: center;
-  padding-top: 20px;
-}
-/* line 36, ../compass/sass/styles.scss */
-.click-event input {
-  font-size: 20px;
-}
-
-/* line 41, ../compass/sass/styles.scss */
-.movie-types {
-  text-align: center;
-  padding: 10px;
+  margin: 10px;
 }
 
 /* line 46, ../compass/sass/styles.scss */
-.buttons {
-  background-color: #EB4B98;
-  font-size: 15px;
-  color: #fff;
+h1 {
+  color: #41337a;
+  text-align: center;
+  font-size: 200px;
+  margin: 10px;
 }
