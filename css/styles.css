@@ -59,34 +59,36 @@ body {
 /* line 16, ../compass/sass/styles.scss */
 div {
   text-align: -webkit-center;
-  width: 45%;
+  width: 100%;
+  height: inherit;
+  background-size: cover;
 }
-/* line 21, ../compass/sass/styles.scss */
+/* line 24, ../compass/sass/styles.scss */
 div img {
   width: 100%;
 }
-/* line 25, ../compass/sass/styles.scss */
+/* line 28, ../compass/sass/styles.scss */
 div h2 {
   color: #ecfee8;
 }
-/* line 29, ../compass/sass/styles.scss */
+/* line 32, ../compass/sass/styles.scss */
 div h3, div p {
   color: #6ea4bf;
 }
 
-/* line 34, ../compass/sass/styles.scss */
+/* line 37, ../compass/sass/styles.scss */
 .love {
   float: right;
   margin: 10px;
 }
 
-/* line 39, ../compass/sass/styles.scss */
+/* line 42, ../compass/sass/styles.scss */
 .hate {
   float: left;
   margin: 10px;
 }
 
-/* line 46, ../compass/sass/styles.scss */
+/* line 49, ../compass/sass/styles.scss */
 h1 {
   color: #41337a;
   text-align: center;

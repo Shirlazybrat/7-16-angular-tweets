@@ -5,7 +5,7 @@ tweetApp.controller('homeController', function($scope, $http, $location, $mdDial
 		return $location.path();
 	},
 	function(newPath){
-		$scope.trupm = "";
+		$scope.trump = "";
 		$scope.hillary = "";
 		$scope.home = "";
 		console.log("The path changed is now" + newPath);
