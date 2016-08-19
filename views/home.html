@@ -3,7 +3,7 @@
 
 	<div class="love" ng-repeat="tweet in tweets">
 		<div ng-style="{'background-image':'linear-gradient(
-	    to top, rgba(0,0,0, 0), rgba(0,0,0, 100)), url({{tweet.user.profile_banner_url}})'}" style="width: 100%">
+	    to top, rgba(0,0,0, 0.4), rgba(0,0,0, 100)), url({{tweet.user.profile_banner_url}})'}" style="width: 100%">
 	<!-- 	<img ng-src="{{tweet.user.profile_banner_url}}">
 	 -->	<h2>Tweet: {{tweet.text}}</h2>
 		<h3>Tweeted by {{tweet.user.screen_name}}</h3>

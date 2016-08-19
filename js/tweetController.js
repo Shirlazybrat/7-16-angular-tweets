@@ -12,7 +12,7 @@ console.log($routeParams);
 		var searchTerm  = $routeParams.searchTerm;
 	}
 	else { 
-	var searchTerm = 'puppylove';
+	var searchTerm = 'puppies';
 	}
 
 

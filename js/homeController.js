@@ -24,17 +24,17 @@ tweetApp.controller('homeController', function($scope, $http, $location, $mdDial
 	$scope.showPrompt = function(ev) {
     // Appending dialog to document.body to cover sidenav in docs app
     var confirm = $mdDialog.prompt()
-      .title('What would you name your dog?')
-      .textContent('Bowser is a common name.')
-      .placeholder('Dog name')
-      .ariaLabel('Dog name')
+      .title('What hashtag would you like to search?')
+      .textContent('#love, #lemonade, #Trump?')
+      .placeholder('Enter search')
+      .ariaLabel('#')
       .targetEvent(ev)
-      .ok('Okay!')
-      .cancel('I\'m a cat person');
+      .ok('Let\'s see!')
+      .cancel('Not today');
     $mdDialog.show(confirm).then(function(result) {
-      $scope.status = 'You decided to name your dog ' + result + '.';
+      $scope.status = 'Below is your # search for ' + result + '.';
     }, function() {
-      $scope.status = 'You didn\'t name your dog.';
+      $scope.status = 'You didn\'t choose a # to search.';
     });
   };
 
